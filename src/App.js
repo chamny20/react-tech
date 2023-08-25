@@ -5,13 +5,17 @@ import Average from "./Average";
 import logo from "./logo.svg";
 import "./App.css";
 import SassComponent from "./SassComponent";
+import CSSModule from "./CSSModule";
+import StyledComponent from "./StyledComponent";
 
 const App = () => {
   const [visible, setVisible] = useState(false);
 
   return (
     <div>
-      <SassComponent />
+      <StyledComponent />
+      {/* <CSSModule /> */}
+      {/* <SassComponent /> */}
       {/* <div className="App">
         <header>
           <img src={logo} className="logo" alt="logo" />

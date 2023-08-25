@@ -1,0 +1,18 @@
+.wrapper {
+  background: black;
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.inverted {
+  color: black;
+  background: white;
+  border: 1px solid black;
+}
+
+/* :global => 특정 클래스가 웹 페이지에서 전역적으로 사용되는 경우 붙여준다. */
+:global .something {
+  font-weight: 800;
+  color: aqua;
+}
